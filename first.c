@@ -5,5 +5,11 @@ int main(){
     printf("Enter the random number: ");
     scanf("%d", &n);
     printf("\nYou have entered : %d", n);
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("\n%d", i);
+    }
+    
     return 0;
 }
